@@ -12,6 +12,7 @@ body {
   height: 100%;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -50,6 +51,7 @@ body {
   border-radius: 10px;
 }
 
+/* Hero section */
 #hero {
   display: flex;
   flex-direction: column;
@@ -76,7 +78,7 @@ body {
   max-width: 600px;
 }
 
-/* Mark Converter */
+/* Mark Converter and Temp Converter*/
 .markConverter,
 .tempConverter {
   background-color: #fff;
@@ -129,8 +131,6 @@ body {
   margin-top: 2rem;
   color: #666;
 }
-
-/* Temperature Converter */
 
 /* Footer */
 #footer {
