@@ -76,6 +76,62 @@ body {
   max-width: 600px;
 }
 
+/* Mark Converter */
+.markConverter,
+.tempConverter {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  border: solid rgb(237, 231, 231);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 25vw;
+  margin: 7rem auto 0 auto;
+  text-align: center;
+}
+
+.markConverter h1,
+.tempConverter h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.markConverter input,
+.tempConverter input,
+.tempConverter select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.markConverter button,
+.tempConverter button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.markConverter button:hover {
+  background: #0056b3;
+}
+
+.markConverter p,
+.tempConverter p {
+  margin-top: 2rem;
+  color: #666;
+}
+
+/* Temperature Converter */
+
 /* Footer */
 #footer {
   background-color: #333;
