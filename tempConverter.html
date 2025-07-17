@@ -20,19 +20,20 @@
 
     <div class="tempConverter">
       <h1>Temperature Converter</h1>
-      <input type="number" placeholder="Enter temperature" />
+      <input id="input-temp" type="number" placeholder="Enter temperature" />
 
-      <select>
+      <select id="select-temp">
         <option value="">Select conversion</option>
-        <option>Fahrenheit to Celcius and Kelvin</option>
-        <option>Celcius to Fahrenheit and Kelvin</option>
-        <option>Kelvin to Fahrenheit and Celcius</option>
+        <option value="f-ck">Fahrenheit to Celcius and Kelvin</option>
+        <option value="c-fk">Celcius to Fahrenheit and Kelvin</option>
+        <option value="k-fc">Kelvin to Fahrenheit and Celcius</option>
       </select>
 
-      <button>Convert</button>
+      <button id="convert-temp">Convert</button>
 
-      <p></p>
+      <p id="result-temp"></p>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
