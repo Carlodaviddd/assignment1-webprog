@@ -132,6 +132,58 @@ body {
   color: #666;
 }
 
+/* Staff Page */
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name-btn,
+.salary-btn {
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.name-btn:hover,
+.salary-btn:hover {
+  background-color: #005fa3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #3b82f6;
+  color: white;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tbody tr:hover {
+  background: #f1f1f1;
+}
+
 /* Footer */
 #footer {
   background-color: #333;
