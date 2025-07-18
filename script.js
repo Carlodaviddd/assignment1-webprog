@@ -129,8 +129,8 @@ if (convertTemp) {
 }
 
 // Staff Page
-const sortNameBtn = document.getElementById("sortName");
-const sortSalaryBtn = document.getElementById("sortSalary");
+const sortByName = document.getElementById("sortName");
+const sortBySalary = document.getElementById("sortSalary");
 const tbody = document.getElementById("staff");
 
 var dataSet = [
@@ -399,9 +399,9 @@ function displayTable() {
   }
 }
 
-// If the sortNameBtn button exist, add click event to sort the name asc/dsc
-if (sortNameBtn) {
-  sortNameBtn.addEventListener("click", function () {
+// If the sortByName exist, add click event to sort the name asc/dsc
+if (sortByName) {
+  sortByName.addEventListener("click", function () {
     dataSet.sort(function (a, b) {
       if (a[0] < b[0]) {
         if (sortName) {
@@ -424,9 +424,9 @@ if (sortNameBtn) {
   });
 }
 
-// If sortSalaryBtn button exist, add click event to sort the salary asc/dsc
-if (sortSalaryBtn) {
-  sortSalaryBtn.addEventListener("click", function () {
+// If sortBySalary exist, add click event to sort the salary asc/dsc
+if (sortBySalary) {
+  sortBySalary.addEventListener("click", function () {
     dataSet.sort(function (a, b) {
       let salary1 = Number(a[5].replace(/[^0-9]/g, ""));
       let salary2 = Number(b[5].replace(/[^0-9]/g, ""));
