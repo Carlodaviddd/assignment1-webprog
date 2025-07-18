@@ -133,25 +133,9 @@ body {
 }
 
 /* Staff Page */
-.controls {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.name-btn,
-.salary-btn {
-  padding: 10px 15px;
-  margin: 0 10px;
-  border: none;
-  background-color: #0077cc;
-  color: white;
-  cursor: pointer;
-  border-radius: 15px;
-}
-
-.name-btn:hover,
-.salary-btn:hover {
-  background-color: #005fa3;
+#sortSalary:hover,
+#sortName:hover {
+  background-color: #011d30;
 }
 
 table {
@@ -160,8 +144,6 @@ table {
   font-size: 1rem;
   background-color: #f9fafb;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
-  overflow: hidden;
 }
 
 thead {
