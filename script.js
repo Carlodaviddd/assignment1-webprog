@@ -47,7 +47,7 @@ if (convertBtn) {
         grade = "C";
       } else if (Number(inputValue) < 70 && Number(inputValue) >= 60) {
         grade = "D";
-      } else if (Number(inputValue) > 60 && Number(inputValue) >= 50) {
+      } else if (Number(inputValue) < 60 && Number(inputValue) >= 50) {
         grade = "E";
       } else {
         grade = "F";
