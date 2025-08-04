@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Staff Page</title>
+    <title>Mark To Grade Converter</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
@@ -11,28 +11,23 @@
     <nav id="nav-links" class="navbar">
       <h1>Assignment 1</h1>
       <ul>
-        <li><a href="/index.html">Profile</a></li>
+        <li><a href="index.html">Profile</a></li>
         <li><a href="markConverter.html">Grade Converter</a></li>
         <li><a href="staffPage.html">Staff Page</a></li>
         <li><a href="tempConverter.html">Temperature Converter</a></li>
       </ul>
     </nav>
 
-    <!-- Table -->
-    <table>
-      <thead>
-        <tr>
-          <th id="sortName">Name</th>
-          <th>Position</th>
-          <th>Office</th>
-          <th>Extension</th>
-          <th>Start Date</th>
-          <th id="sortSalary">Salary</th>
-        </tr>
-      </thead>
-      <tbody id="staff"></tbody>
-    </table>
+    <!-- Mark Converter -->
+    <div class="markConverter">
+      <h1>Mark to Grade Converter</h1>
+      <input id="input-text" type="text" placeholder="Enter your grade" />
 
-    <script src="/script/staffPage.js"></script>
+      <button id="convert-btn">Convert</button>
+
+      <p id="result"></p>
+    </div>
+
+    <script src="markConverter.js"></script>
   </body>
 </html>

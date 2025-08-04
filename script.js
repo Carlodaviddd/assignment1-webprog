@@ -15,5 +15,5 @@ for (let i = 0; i < links.length; i++) {
 // After 10seconds, image will display
 setTimeout(function () {
   document.getElementById("hero").style.backgroundImage =
-    'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/island-moon.jpg")';
+    'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("island-moon.jpg")';
 }, 10000);
