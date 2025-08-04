@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="nav-links" class="navbar">
+      <h1>Assignment 1</h1>
+      <ul>
+        <li><a href="/index.html">Profile</a></li>
+        <li><a href="markConverter.html">Grade Converter</a></li>
+        <li><a href="staffPage.html">Staff Page</a></li>
+        <li><a href="tempConverter.html">Temperature Converter</a></li>
+      </ul>
+    </nav>
+
+    <!-- Temperature Converter -->
+    <div class="tempConverter">
+      <h1>Temperature Converter</h1>
+      <input id="input-temp" type="number" placeholder="Enter temperature" />
+
+      <select id="select-temp">
+        <option value="">Select conversion</option>
+        <option value="f-ck">Fahrenheit to Celcius and Kelvin</option>
+        <option value="c-fk">Celcius to Fahrenheit and Kelvin</option>
+        <option value="k-fc">Kelvin to Fahrenheit and Celcius</option>
+      </select>
+
+      <button id="convert-temp">Convert</button>
+
+      <p id="result-temp"></p>
+    </div>
+
+    <script src="/script/tempConverter.js"></script>
+  </body>
+</html>

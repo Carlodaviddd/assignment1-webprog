@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.navbar h1 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: #f3f4f6;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px;
+  transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #374151;
+  border-radius: 5px;
+}
+
+.navbar a.active {
+  background-color: tomato;
+  border-radius: 10px;
+}
+
+/* Hero section */
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+}
+
+/* Mark Converter and Temp Converter*/
+.markConverter,
+.tempConverter {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  border: solid rgb(237, 231, 231);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 25vw;
+  margin: 7rem auto 0 auto;
+  text-align: center;
+}
+
+.markConverter h1,
+.tempConverter h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.markConverter input,
+.tempConverter input,
+.tempConverter select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.markConverter button,
+.tempConverter button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.markConverter button:hover {
+  background: #0056b3;
+}
+
+.markConverter p,
+.tempConverter p {
+  margin-top: 2rem;
+  color: #666;
+}
+
+/* Staff Page */
+#sortSalary:hover,
+#sortName:hover {
+  background-color: #011d30;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+thead {
+  background-color: #3b82f6;
+  color: white;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tbody tr:hover {
+  background: #f1f1f1;
+}
+
+/* Footer */
+#footer {
+  background-color: #333;
+  color: #f3f4f6;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
