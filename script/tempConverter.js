@@ -1,6 +1,6 @@
 /* Highlight the current active page
 https://www.geeksforgeeks.org/how-to-make-active-navbar-in-html-css-and-javascript/ */
-const currentPage = window.location.pathname.split("/").pop();
+const currentPage = window.location.pathname;
 const links = document.querySelectorAll(".navbar a");
 
 // Loop through links
@@ -10,6 +10,16 @@ for (let i = 0; i < links.length; i++) {
     break;
   }
 }
+
+/* Burger */
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.getElementById("burger");
+  const navLinks = document.getElementById("nav-links");
+
+  burger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+});
 
 // Temperature converter
 const inputTemp = document.getElementById("input-temp");

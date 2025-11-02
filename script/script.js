@@ -12,9 +12,19 @@ for (let i = 0; i < links.length; i++) {
   }
 }
 
+/* Burger */
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.getElementById("burger");
+  const navLinks = document.getElementById("nav-links");
+
+  burger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+});
+
 /* Hero Section */
 // After 10seconds, image will display
 setTimeout(function () {
   document.getElementById("hero").style.backgroundImage =
-    'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("island-moon.jpg")';
-}, 10000);
+    'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/island-moon.jpg")';
+}, 1000);
