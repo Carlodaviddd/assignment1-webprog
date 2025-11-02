@@ -27,4 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
 setTimeout(function () {
   document.getElementById("hero").style.backgroundImage =
     'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/island-moon.jpg")';
-}, 1000);
+}, 10000);

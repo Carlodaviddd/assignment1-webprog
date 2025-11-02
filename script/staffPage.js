@@ -1,6 +1,6 @@
 /* Highlight the current active page
 https://www.geeksforgeeks.org/how-to-make-active-navbar-in-html-css-and-javascript/ */
-const currentPage = window.location.pathname;
+const currentPage = window.location.pathname.split("/").pop();
 const links = document.querySelectorAll(".navbar a");
 
 // Loop through links
