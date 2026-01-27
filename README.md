@@ -14,5 +14,6 @@ A vanilla web assignment with a **profile page**, **mark to grade converter**, *
 - JavaScript
 
 ## How to See It
-1. Clone this repository
-2. Open the `index.html` file in your browser.
+1. Download or Clone this repository.
+2. Open the `index.html` file in Visual Studio Code.
+3. Use Live Server extension in VS Code to see the project in your browser.
